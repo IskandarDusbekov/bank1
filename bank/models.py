@@ -1,3 +1,6 @@
+"""
+Bank app modeli
+"""
 from django.db import models
 
 # Create your models here.
@@ -23,4 +26,4 @@ class Card(models.Model):
 
     def __str__(self):
         return self.card_number
-    
+
